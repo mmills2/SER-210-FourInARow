@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- FourInARow
+@author MacArthur Mills
+@date 2/20/2022 -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:orientation="vertical">
+
+    <!-- player's name -->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"/>
+
+    <!-- turn display -->
+    <TextView
+        android:id="@+id/whoseTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player's Turn"
+        android:layout_gravity="center"/>
+
+    <!-- game board -->
+    <GridLayout
+        android:id="@+id/gameBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:rowCount="6">
+    </GridLayout>
+
+    <!-- game win message -->
+    <TextView
+        android:id="@+id/winMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No one yet"
+        android:layout_gravity="center">
+    </TextView>
+
+    <!-- reset button -->
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_gravity="center"
+        android:onClick="onResetButton">
+    </Button>
+
+</LinearLayout>

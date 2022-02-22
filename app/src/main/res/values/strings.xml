@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FourInARow</string>
+    <string name="instructionsText">The rules are simple: You must get four blue cells in a row and prevent your opponent from getting four red cells in a row. Your opponent will also try to prevent you from getting four blue cells in a row. If you get four blue cells in a row, you win. If your opponent gets four red cells in a row, your opponent wins. If you and your opponent manage to fill up the board without either of you achieving four in a row, it\'s a tie. Good luck!</string>
+</resources>
